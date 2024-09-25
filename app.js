@@ -14,6 +14,11 @@ function toss(para) {
         console.log("You Losse The Toss!" + num);
         result.innerHTML = "You Losse The Toss!"
     }
+    if (num === 1) {
+        img.src = "./imgs/head.png"
+    } else if (num === 2) {
+        img.src = "./imgs/tails.png"
+    }
 }
 
 
